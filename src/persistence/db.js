@@ -1,4 +1,7 @@
 import pg from 'pg'
+import dotenv from 'dotenv'
+
+dotenv.config()
 const { Client } = pg
 const client = new Client({
     database: process.env.DB_NAME,

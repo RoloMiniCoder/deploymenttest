@@ -1,0 +1,4 @@
+= Step by step for an Ubuntu OS
+
+* `sudo apt update`
+* `sudo apt install git postgresql nodejs`
